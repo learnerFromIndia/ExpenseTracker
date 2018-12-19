@@ -1,0 +1,58 @@
+* {
+    box-sizing:border-box;
+}
+
+.expenseContainer{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: minmax(40px,50px) 1fr;
+   height:100vh;    
+}
+.header {
+  background-color:#574f5b;
+  display: flex;
+}
+.header > div{
+    width:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.header > div:nth-child(1) {
+    width:15%;
+}
+.header > div:nth-child(2) {
+    
+}
+.header > div:nth-child(3) {
+ 
+}
+.linkActive{
+    background-color: #D3CEC3;
+} 
+.title{
+    font-size: 20px;
+    color: #f0f4f5
+}
+.link > a{
+  text-decoration: none;
+  color: white;
+}
+.link:hover{
+    background-color: white;
+}
+.mainView{
+    background-color: blue;
+}
+.navigationList{
+    list-style: none;
+    margin: 0
+}
+.navigationList li{
+    display: inline;
+    margin-right: 10px;
+    text-decoration:none
+}
+.navigationList li a{
+    text-decoration:none
+}
