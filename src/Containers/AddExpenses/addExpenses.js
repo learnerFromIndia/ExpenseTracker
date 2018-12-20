@@ -5,7 +5,13 @@ export default class AddExpenses extends React.Component{
 
   render(){
     return(
-        <div><h1>A</h1></div>
+        <div className="addContainer">
+        <div className="leftSideWindow">Left</div>
+        <div className="rightSideWindow">Right</div>
+        <div className="configurationWindow">Config</div>
+        <div className="additionWindow">Add</div>
+        <div className="tableWindow">Table</div>
+        </div>
     )
   }
 
